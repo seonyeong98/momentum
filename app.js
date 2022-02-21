@@ -31,16 +31,24 @@
 // const player = ["yeong", 121212, false, "nope"];
 
 /*player 자체를 바꿀 순 없지만 player의 내용을 바꿀 순 있음*/
-const player = {
-    name: "yeong",
-    points: 10,
-    fat: false,
-};
-console.log(player);
-console.log(player.name);
-console.log(player["name"]);
+// const player = {
+//     name: "yeong",
+//     points: 10,
+//     fat: false,
+// };
+// console.log(player);
+// console.log(player.name);
+// console.log(player["name"]);
+//
+// player.lastName = "potato";/*데이터 추가가능*/
+//
+// console.log(player)
+// player.fat = false;
 
-player.lastName = "potato";/*데이터 추가가능*/
+/*function*/
+function sayHello(){
+    console.log("Hello my name is");
+}
 
-console.log(player)
-player.fat = false;
+sayHello();
+

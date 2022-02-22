@@ -30,7 +30,9 @@
 // player[1] == points*/
 // const player = ["yeong", 121212, false, "nope"];
 
-/*player 자체를 바꿀 순 없지만 player의 내용을 바꿀 순 있음*/
+/*
+Object
+player 자체를 바꿀 순 없지만 player의 내용을 바꿀 순 있음*/
 // const player = {
 //     name: "yeong",
 //     points: 10,
@@ -43,12 +45,30 @@
 // player.lastName = "potato";/*데이터 추가가능*/
 //
 // console.log(player)
-// player.fat = false;
+// player.fat = false;/*데이터 업데이트*/
 
-/*function*/
-function sayHello(){
-    console.log("Hello my name is");
-}
+/*function 계속 사용할 수 있는 조각*/
 
-sayHello();
+// function sayHello(nameOfPerson, age){
+//     /*argument를 받는 방법*/
+//     console.log("Hello my name is" + nameOfPerson + "and I'm" + age);
+// }
+//
+// /*function에 argument를 보내는 방법*/
+// sayHello("yeong", 20);
+// sayHello("nico", 10);
+// sayHello("hong",5);
 
+// function plus(a,b){
+//     console.log(a + b);
+// }
+// plus(8 , 60);
+
+const player = {
+    name: "yeong",
+    sayHello: function(otherPersonsName){
+        console.log("my name is" + otherPersonsName)
+    }
+};
+
+player.sayHello("ddeonung")

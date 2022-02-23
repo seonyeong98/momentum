@@ -64,11 +64,13 @@ player 자체를 바꿀 순 없지만 player의 내용을 바꿀 순 있음*/
 // }
 // plus(8 , 60);
 
-const player = {
-    name: "yeong",
-    sayHello: function(otherPersonsName){
-        console.log("my name is" + otherPersonsName)
-    }
-};
+// const player = {
+//     name: "yeong",
+//     sayHello: function(otherPersonsName){
+//         console.log("my name is" + otherPersonsName)
+//     }
+// };
+//
+// player.sayHello("ddeonung");
 
-player.sayHello("ddeonung")
+/*const는  변경할 수 없음 변수를 바꾸려면 let사용(update), var 사용 금지*/
